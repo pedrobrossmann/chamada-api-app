@@ -27,16 +27,18 @@ response: {
 ```
 #### 2 - Obtém dados do usuário
 
-Request:
-Method: GET.
-URL: ,
-body: {
-
+```yaml
+Request: {
+    method: GET.
+    URL: "{{API_BASE_AUTH_URL}}/"
+    header: {
+    }
 }
+```
 
-Respose:
-Status code: 200  
-{
-
+```yaml
+response: {
+    "statusCode": 200,
+    body: {
+    }
 }
-'
