@@ -1,14 +1,17 @@
 #### Cenário: Realizar login com usuário cadastrado
 
 ### 1 - Obtém token de acesso
-
-Request:    
-Method: POST.
-URL: {{API_BASE_AUTH_URL}}/token
+```javascript
+Request: {
+    method: POST.
+    URL: "{{API_BASE_AUTH_URL}}/token"
+}
+```
 
 ```javascript
-body: {
-
+response: {
+    "access_token": "W1jWZ5irQ4G3sBpvDuD-dsGMj5E",
+    "token_type": "bearer",
 }
 ```
 
