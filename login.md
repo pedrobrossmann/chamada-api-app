@@ -2,11 +2,11 @@
 
 ### 1 - Obtém token de acesso
 
-Request:
+Request:    
 Method: POST.
 URL: {{API_BASE_AUTH_URL}}/token
 
-```json
+```javascript
 body: {
 
 }
