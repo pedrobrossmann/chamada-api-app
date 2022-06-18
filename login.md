@@ -2,7 +2,7 @@
 
 #### 1 - Obtém token de acesso
 
-```javascript
+```yaml
 Request: {
     method: POST.
     URL: "{{API_BASE_AUTH_URL}}/token"
@@ -13,7 +13,7 @@ Request: {
 }
 ```
 
-```javascript
+```yaml
 response: {
     "statusCode": 200,
     body: {
