@@ -8,7 +8,7 @@ Request: {
     URL: "{{API_BASE_AUTH_URL}}/token"
     header: {
         user: 12314,
-        name: pedro
+        name: pedro teste
     }
 }
 ```
